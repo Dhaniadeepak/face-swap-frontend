@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://face-swap-backend-t9av.onrender.com",
+  baseURL: import.meta.env.VITE_API_URL || "https://face-swap-backend-t9av.onrender.com/api",
 });
 
 api.interceptors.request.use((req) => {
